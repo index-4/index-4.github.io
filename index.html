@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -24,23 +25,13 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="favicon.png" />
 
   <title>cups</title>
   <link rel="manifest" href="manifest.json">
 </head>
-<body>  
-  <!-- This script installs service_worker.js to provide PWA functionality to
-       application. For more information, see:
-       https://developers.google.com/web/fundamentals/primers/service-workers -->
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=736883891');
-      });
-    }
-  </script>
-  <script src="main.dart.js" type="application/javascript"></script>
+
+<body>
 
   <!-- The core Firebase JS SDK is always required and must be listed first -->
   <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
@@ -73,5 +64,18 @@
     QrScanner.WORKER_PATH = 'js/qr-scanner-worker.min.js';
   </script>
 
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=1072924966');
+      });
+    }
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+
 </body>
+
 </html>
