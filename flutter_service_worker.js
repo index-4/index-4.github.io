@@ -13,15 +13,18 @@ const RESOURCES = {
 "assets/FontManifest.json": "0954099dc39f0f0cf5d270fab9e58882",
 "assets/AssetManifest.json": "faf706a0bfc9d12cfefc13d53f7e9c55",
 "version.json": "ee9a2a13aaea9c22c7caa6bf66e7b5bc",
-"icons/icon-512.png": "5d3aed3a50e9851c6177b6bec71a7e42",
-"icons/icon-192.png": "ff73723274d52443af2785d01791b061",
+"icons/icon-512.png": "12171d5a88ad00d94d56da6f39e395b3",
+"icons/apple-touch-icon.png": "677d89d51899e80600eb52e6933cdadf",
+"icons/icon-192.png": "0a93f946ee753f76f5b5d09a426e6ca0",
+"favicon.ico": "ce925cb1075bd7cf55fbe5bffe9e1a37",
 "js/qr-scanner.umd.min.js": "56585c72fa67697f9a7a6a3a8ee30b41",
 "js/qr-scanner-worker.min.js": "6aa584a2de9d2c59e701a0879ae93973",
-"index.html": "b8d1c05b62756e38ce6aea3e74af0690",
-"/": "b8d1c05b62756e38ce6aea3e74af0690",
+"index.html": "b20c7857237912908bafc16fbf6195ef",
+"/": "b20c7857237912908bafc16fbf6195ef",
+"favicon-16x16.png": "0102cb7374ba7179f7623e18b8d826a2",
 "manifest.json": "ce71db3211f11d5901d15995f1860e4c",
 "main.dart.js": "25389c3a5632705e8d59dffb6eafb0ff",
-"favicon.png": "91cd8b875c5b0eefbfba30842ffaf755"
+"favicon-32x32.png": "afc7da3843869f94dd6c332d48618f4f"
 };
 
 // The application shell files that are downloaded before a service worker can
