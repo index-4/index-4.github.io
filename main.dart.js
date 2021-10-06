@@ -39660,7 +39660,7 @@ q=$.atZ()
 n.push(T.ek(new R.xE(p.gK9(),s,r,q,o),k.a.b,m.a.a))}if(p.x){m=p.c.Y(l).f
 n.push(T.a2r(o,T.hk(o,o,o,new N.JD(o),new P.B(170,170)),o,o,o,o,m.a.b/2.25,o))}return n},
 nz(a){return this.a5S(a)},
-a5S(a){var s=0,r=P.K(t.z),q,p=2,o,n=[],m=this,l,k,j,i,h,g,f
+a5S(a){var s=0,r=P.K(t.z),q,p=2,o,n=[],m=this,l,k,j,i,h,g,f,e,d
 var $async$nz=P.F(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:if(m.y||a==null){s=1
 break}m.y=!0
@@ -39675,18 +39675,19 @@ default:s=8
 break}break
 case 5:l=a.split(":")
 k=$.cr()
-j=new Q.fN(null,k.gcT().a,l[1],Date.now(),null)
-i=m.c
-i.toString
-f=j
+j=k.gcT()
+i=l[1]
+h=Date.now()
+g=m.c
+g.toString
 s=9
-return P.M(k.lJ(j,i),$async$nz)
-case 9:f.a=c.a
-$.kD().a=j
-i=$.dz()
-k=m.c
-k.toString
-i.oF(k,"/game",!0,new K.cx(null,new D.pQ(l[2])))
+return P.M(k.lJ(new Q.fN(null,j.a,i,h,null),g),$async$nz)
+case 9:f=c
+$.kD().a=f
+g=$.dz()
+h=m.c
+h.toString
+g.oF(h,"/game",!0,new K.cx(null,new D.pQ(l[2])))
 s=4
 break
 case 6:s=10
@@ -39704,8 +39705,8 @@ case 15:p=2
 s=14
 break
 case 12:p=11
-g=o
-H.X(g)
+d=o
+H.X(d)
 E.kU(C.x0,"Couldn't add league! Are you sure it's a valid league code?",C.fz)
 s=14
 break
@@ -39851,24 +39852,24 @@ $0(){K.d3(this.a,!1).eC(0,null)
 return null},
 $S:0}
 V.abp.prototype={
-$0(){var s=0,r=P.K(t.H),q=this,p,o,n,m,l,k
+$0(){var s=0,r=P.K(t.H),q=this,p,o,n,m,l,k,j
 var $async$$0=P.F(function(a,b){if(a===1)return P.H(b,r)
-while(true)switch(s){case 0:n=$.cr()
-m=q.b
-l=new Q.fN(null,n.gcT().a,m.a,Date.now(),null)
+while(true)switch(s){case 0:m=$.cr()
+l=m.gcT()
+k=q.b
+j=Date.now()
 K.d3(q.c,!1).eC(0,null)
 p=q.a
 o=p.c
 o.toString
-k=l
 s=2
-return P.M(n.lJ(l,o),$async$$0)
-case 2:k.a=b.a
-$.kD().a=l
+return P.M(m.lJ(new Q.fN(null,l.a,k.a,j,null),o),$async$$0)
+case 2:n=b
+$.kD().a=n
 o=$.dz()
 p=p.c
 p.toString
-o.oF(p,"/game",!0,new K.cx(null,new D.pQ(m.c)))
+o.oF(p,"/game",!0,new K.cx(null,new D.pQ(k.c)))
 return P.I(null,r)}})
 return P.J($async$$0,r)},
 $S:25}

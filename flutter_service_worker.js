@@ -12,18 +12,18 @@ const RESOURCES = {
 "assets/fonts/Raleway-Medium.ttf": "2ec8557460d3a2cd7340b16ac84fce32",
 "assets/FontManifest.json": "0954099dc39f0f0cf5d270fab9e58882",
 "assets/AssetManifest.json": "faf706a0bfc9d12cfefc13d53f7e9c55",
-"version.json": "ee9a2a13aaea9c22c7caa6bf66e7b5bc",
+"version.json": "f29c84f2af774646ec0ce2bf510e93f6",
 "icons/icon-512.png": "12171d5a88ad00d94d56da6f39e395b3",
 "icons/apple-touch-icon.png": "677d89d51899e80600eb52e6933cdadf",
 "icons/icon-192.png": "0a93f946ee753f76f5b5d09a426e6ca0",
 "favicon.ico": "ce925cb1075bd7cf55fbe5bffe9e1a37",
 "js/qr-scanner.umd.min.js": "56585c72fa67697f9a7a6a3a8ee30b41",
 "js/qr-scanner-worker.min.js": "6aa584a2de9d2c59e701a0879ae93973",
-"index.html": "b20c7857237912908bafc16fbf6195ef",
-"/": "b20c7857237912908bafc16fbf6195ef",
+"index.html": "73c6372eec548ea383d2444835b34666",
+"/": "73c6372eec548ea383d2444835b34666",
 "favicon-16x16.png": "0102cb7374ba7179f7623e18b8d826a2",
 "manifest.json": "ce71db3211f11d5901d15995f1860e4c",
-"main.dart.js": "25389c3a5632705e8d59dffb6eafb0ff",
+"main.dart.js": "0e8cbbb5bf10dd3d5d131e10e5be9f7b",
 "favicon-32x32.png": "afc7da3843869f94dd6c332d48618f4f"
 };
 
